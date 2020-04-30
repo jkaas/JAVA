@@ -1,6 +1,6 @@
 package three.two;
 /**
- * 测试字符类型
+ * 测试字符类型和布尔类型
  * @author 73946
  *
  */
@@ -20,6 +20,13 @@ public class TestPrimitiveDataType3 {
 		
 		//String就是字符序列
 		String d ="abc";
+		
+		//测试布尔类型
+		boolean man = true;
+		
+		if(man) {
+			System.out.println("男性");
+		}
 	}
 
 }
