@@ -27,6 +27,10 @@ public class TestOperator01 {
 		a1 = 3;
 		b1 = ++a1;
 		System.out.println("a=" + a1 + "\nc=" + b1);
+		
+		a1 = 3;
+		a1 *= b +3;
+		System.out.println(a1);
 	}
 
 }
